@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components"
-const Wrapper=styled.div
-`    margin-top: 5rem;
+const Wrapper=styled.div`
+margin-top: 5rem;
 .card {
   transition:background-color 0.5s;
 :hover {

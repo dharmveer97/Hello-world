@@ -7,6 +7,9 @@ import Carddata from "../components/Carddata";
 import Fluid from "../components/Fluid";
 import Features from "../components/Features";
 import Pagination from "../components/Pagination";
+import Teamdata from "../components/Teamdata";
+import Slider from "../components/Slider";
+import Input from "../components/Input";
 const Index = () => ( 
     <div>
         <Header /> 
@@ -17,6 +20,9 @@ const Index = () => (
         <Fluid /> 
         <Features /> 
         <Pagination />
+        <Teamdata />
+        <Slider />
+        <Input />
     </div>
 );
 export default Index;    

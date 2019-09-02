@@ -22,6 +22,8 @@ export default class HTML extends React.Component {
         defer
         src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
       />
+        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>

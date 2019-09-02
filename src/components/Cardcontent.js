@@ -15,7 +15,7 @@ const Cardcontent = (props) => (
   <div className="card-content">
     <div className="media">
       <div className="media-content">
-      <p class="title is-5">{props.title}</p>
+      <p className="title is-5">{props.title}</p>
       </div>
     </div>
   <Hr/>
