@@ -1,6 +1,7 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 const Wrapper = styled.div`
+  height: 300px;
   background-image: url(https://colorlib.com/preview/theme/supreme/img/footer_overlay.png);
   a:hover {
     color: red;
