@@ -1,20 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
 const Wrapper = styled.div`
-.main {
-  background-color: #0e2737;
-  margin-top: 3rem;
-}
-.search {
-  margin-top: 2rem;
-}
-.icon-text {
-  margin-left: 1rem;
-}
+    background-color: #0e2737;
+    margin-top: 3rem;
+  }
+  .search {
+    margin-top: 2rem;
+  }
+  .icon-text {
+    margin-left: 1rem;
+  }
+  .footer{
+    background-color: #0e2737;
+  }
 `;
 const Footer = () => (
   <Wrapper>
-  <div className="main">
     <section className="section">
       <div className="container">
         <div className="columns">
@@ -42,9 +43,9 @@ const Footer = () => (
               </p>
             </a>
             <p className="subtitle is-size-6 has-text-light">
-              {" "}
+              {' '}
               <i className="far fa-clock" />
-              Jan 02, 2019{" "}
+              Jan 02, 2019{' '}
             </p>
 
             <a href="trick" className="post-title">
@@ -53,9 +54,9 @@ const Footer = () => (
               </p>
             </a>
             <p className="subtitle is-size-6 has-text-light">
-              {" "}
+              {' '}
               <i className="far fa-clock" />
-              Jan 02, 2019{" "}
+              Jan 02, 2019{' '}
             </p>
           </div>
 
@@ -123,42 +124,23 @@ const Footer = () => (
           </div>
         </div>
 
-        <footer className="">
+        <footer className="footer">
           <div className="content has-text-centered">
-            <div className="columns">
-              <div className="column">
-                <p className="left-text has-text-left">
-                  <strong>Copyright ©</strong>2019
-                  <i className="far fa-heart" />
-                  by
-                  <a href="https://uuuu0.sse.codesandbox.io/">Dharmveer</a>.
-                </p>
-              </div>
-
-              <div className="column has-text-right">
-                <div className="social-info ">
-                  <a href="https://www.facebook.com/">
-                    <i className="fab fa-facebook-f icon-text" />
-                  </a>
-                  <a href="https://twitter.com/">
-                    <i className="fab fa-twitter icon-text" />
-                  </a>
-
-                  <a href="https://www.instagram.com/">
-                    <i className="fab fa-instagram icon-text" />
-                  </a>
-
-                  <a href="https://in.linkedin.com/ ">
-                    <i className="fab fa-linkedin-in icon-text" />
-                  </a>
-                </div>
-              </div>
-            </div>
+            <p>
+              <strong>Bulma</strong> by{' '}
+              <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
+              licensed
+              <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+              The website content is licensed{' '}
+              <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                CC BY NC SA 4.0
+              </a>
+              .
+            </p>
           </div>
         </footer>
       </div>
     </section>
-  </div>
   </Wrapper>
 );
 
