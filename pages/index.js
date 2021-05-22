@@ -5,7 +5,9 @@ import HomeHero from '../components/HomeHero';
 const Index = () => {
   return (
     <Layout>
+
       <HomeHero />
+      
     </Layout>
   );
 };
